@@ -39,4 +39,5 @@ public class EmpleadoController {
     public void eliminar(@PathVariable Long id) {
         empleadoRepository.deleteById(id);
     }
+    
 }
